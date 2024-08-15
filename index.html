@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="/src/Captura de tela 2024-08-15 145644.png" type="image/png">
+    <title>Espaço bbc</title>
+</head>
+<body>
+    <main>
+        <div class="main">
+            <img class="img" src="src/Captura de tela 2024-08-15 145548.png" alt="">
+            <h2>Espaço bbc</h2>            
+        </div>
+        <div class="saudacao">
+            <h3 id="greeting"></h3>                       
+        </div>
+        <div class="h41">
+            <h4>Escolha qual área vc deseja acessar.</h4>
+        </div>
+        <div class="links">
+            <a class="estetica" href="https://financeiro-app-eight.vercel.app/">Estética bbc</a>
+            <a class="barbearia" href="https://barbearia-bbc.vercel.app/">Barbearia bbc</a>
+        </div>
+        <div class="futter1">
+            <img class="futter" src="src/Captura de tela 2024-08-15 145548.png" alt="">
+            <img class="futter" src="src/Captura de tela 2024-08-15 145644.png" alt="">
+        </div>
+    </main>
+    <script>
+        
+        function getGreeting() {
+            const now = new Date();
+            const hour = now.getHours();
+            let greeting;
+
+            if (hour >= 6 && hour < 12) {
+                greeting = "Bom dia! Aldair Santos";
+            } else if (hour >= 12 && hour < 18) {
+                greeting = "Boa tarde! Aldair Santos";
+            } else if (hour >= 18 && hour < 22) {
+                greeting = "Boa noite! Aldair Santos";
+            } else {
+                greeting = "Boa noite! Aldair Santos";
+            }
+
+            return greeting;
+        }        
+        document.getElementById("greeting").textContent = getGreeting();
+    </script>
+</body>
+</html>
