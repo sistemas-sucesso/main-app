@@ -1,0 +1,61 @@
+body {
+    background: black;
+    text-align: center;
+}
+main {
+    width: 80%;    
+    height: 700px;
+    margin: auto;
+    margin-top: 30px;
+}
+.img {
+    width: 70px;
+}
+.main {
+    display: flex;
+    color: green;  
+    justify-content: center;  
+}
+a {
+    text-decoration: none;
+}
+.saudacao{    
+    margin-bottom: 120px;
+    color: blue;
+    font-size: 20px;    
+}
+.estetica{
+   background: green;
+   padding: 20px;
+   color: aliceblue;
+   border-radius: 15px;
+   margin-right: 50px;
+   font-size: 20px;
+   cursor: pointer;
+}
+.barbearia{
+    background: blue;
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 15px;
+    margin-left: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.h41 {  
+    height: 70px;
+    font-size: 30px;
+    color: red;
+}
+.futter{
+    width: 70px;
+}
+.futter {
+    width: 170px;
+    background: black;
+    height: 150px;
+    border: 1px solid pink;
+}
+.links {
+    height: 70px;
+}
